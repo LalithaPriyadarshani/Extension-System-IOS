@@ -1,0 +1,38 @@
+body
+{
+	font-family: 'Oxygen', 'sans-serif';
+    background: url(../images/cream_pixels.png);
+}
+
+table.dataTable
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+table.dataTable > tbody > tr.odd
+{
+    background-color: #eeeeee;
+}
+table.dataTable > tbody > tr.odd > td.sorting_1
+{
+    background-color: #CCCCFF;
+}
+table.dataTable > tbody > tr.even > td.sorting_1
+{
+    background-color: #CCE5FF;
+}
+
+.dataTables_paginate
+{
+    .btn-group;
+}
+.dataTables_paginate > .paginate_disabled_previous
+{
+    .btn; 
+    .btn-default;
+}
+.dataTables_paginate > .paginate_disabled_next
+{
+    .btn; 
+    .btn-default;
+}
